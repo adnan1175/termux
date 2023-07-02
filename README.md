@@ -11,7 +11,7 @@ curl -O https://raw.githubusercontent.com/adnan1175/termux/main/fix-repo.sh
 bash fix-repo.sh
  ```
 
-- or 
+- or  setup all at once 
  ```
  apt install git 
  git clone https://github.com/adnan1175/termux
