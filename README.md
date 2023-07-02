@@ -1,2 +1,5 @@
 # termux
-[]fix termux repo
+•fix termux repo
+ ```
+curl
+ ```
