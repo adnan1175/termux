@@ -6,7 +6,7 @@
 # Fix termux repo and setup:
  ```
 
-curl -o https://raw.githubusercontent.com/adnan1175/termux/main/fix-repo.sh
+curl -O https://raw.githubusercontent.com/adnan1175/termux/main/fix-repo.sh
 
 bash fix-repo.sh
  ```
