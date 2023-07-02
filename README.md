@@ -1,1 +1,2 @@
 # termux
+[]fix termux repo
