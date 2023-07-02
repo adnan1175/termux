@@ -19,3 +19,4 @@ bash fix-repo.sh
  chmod +x setup.sh
  ./setup.sh
  ```
+⚠️⚠️⚠️ apt install will not work until repo fix
