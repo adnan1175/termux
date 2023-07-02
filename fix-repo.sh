@@ -4,4 +4,3 @@ mkdir -p $PREFIX/etc/apt/sources.list.d
 echo "deb [trusted=yes arch=all] https://ivam3.github.io/termux-packages stable extras" >$PREFIX/etc/apt/sources.list.d/ivam3-termux-packages.list
 apt update 
 apt upgrade -y
-apt install x11-repo tur-repo root-repo
