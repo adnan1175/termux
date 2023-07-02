@@ -12,10 +12,10 @@ echo -e "${RED} installing other necessary's ${NC}"
 apt install x11-repo tur-repo root-repo
 clear
 cd 
-echo "${GREEN}congratulations,all done${NC}"
+echo "${RED}congratulations,all done${NC}"
 rm -rf ../usr/etc/motd
 rm -rf ../usr/etc/motd-playstore
-echo "${GREEN}enabling extra keys${NC}"
+echo "${RED}enabling extra keys${NC}"
 curl -O https://raw.githubusercontent.com/adnan1175/termux/main/.termux/termux.properties
 rm -rf .termux
 mkdir .termux
