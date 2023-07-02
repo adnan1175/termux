@@ -1,5 +1,5 @@
 RED='\033[0;31m'
-GREEN="\e[32m"
+GREEN='\\033[0;32m'
 NC='\033[0m' 
 
 echo -e "${RED}updating repo &&apt updating${NC}"
@@ -15,7 +15,7 @@ cd
 echo "${GREEN}congratulations,all done${NC}"
 rm -rf ../usr/etc/motd
 rm -rf ../usr/etc/motd-playstore
-echo "${GREEN} enabling extra keys ${NC}"
+echo "${GREEN}enabling extra keys${NC}"
 curl -O https://raw.githubusercontent.com/adnan1175/termux/main/.termux/termux.properties
 rm -rf .termux
 mkdir .termux
