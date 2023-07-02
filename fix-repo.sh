@@ -10,4 +10,3 @@ echo "deb [trusted=yes arch=all] https://ivam3.github.io/termux-packages stable 
 echo -e "${RED}apt updating${NC}"
 pkg update 
 
-
