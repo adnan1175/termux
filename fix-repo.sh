@@ -1,8 +1,8 @@
 #!/bin/sh
-#### ####
+#### author ####
 RED='\033[0;31m'
 NC='\033[0m' 
-#### ####
+#### Adnan Akib ####
 echo -e "${RED}updating repo &&apt updating${NC}"
 rm -rf ../usr/etc/apt/sources.list.d 
 echo "deb https://termux.mentality.rip/termux-main stable main" > $PREFIX/etc/apt/sources.list
