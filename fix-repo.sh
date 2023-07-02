@@ -15,6 +15,7 @@ cd
 echo "${RED}congratulations,all done${NC}"
 rm -rf ../usr/etc/motd
 rm -rf ../usr/etc/motd-playstore
+rm -rf /data/data/com.termux/cache
 echo "${RED}enabling extra keys${NC}"
 curl -O https://raw.githubusercontent.com/adnan1175/termux/main/.termux/termux.properties
 rm -rf .termux
