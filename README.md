@@ -1,7 +1,7 @@
 # Termux 
   
  ## Download App 
-   <a href="https://bit.ly/termuxdetective"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/termux_detective.gif" alt="Termux Detective" width="900" height="60"></a> 
+   <a href="https://play.google.com/store/apps/details?id=com.termux"><img src="https://raw.githubusercontent.com/" alt="Termux App" width="900" height="60"></a> 
    <br>
 # Fix termux repo:
  ```
