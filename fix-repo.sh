@@ -35,6 +35,7 @@ apt update && apt upgrade
  rm -rf ../usr/etc/motd 
  rm -rf ../usr/etc/motd-playstore 
  rm -rf /data/data/com.termux/cache 
+ mkdir /data/data/com.termux/cache
  curl -O https://raw.githubusercontent.com/adnan1175/termux/main/.termux/termux.properties 
  rm -rf .termux 
  mkdir .termux 
