@@ -30,16 +30,17 @@ apt update && apt upgrade
  echo -e "${RED} installing other necessary's ${NC}" 
  apt install x11-repo tur-repo root-repo 
  clear 
+ echo -e "${RED}enabling extra keys${NC}" 
  cd  
- echo -e "${RED}congratulations,all done${NC}" 
  rm -rf ../usr/etc/motd 
  rm -rf ../usr/etc/motd-playstore 
  rm -rf /data/data/com.termux/cache 
- echo -e "${RED}enabling extra keys${NC}" 
  curl -O https://raw.githubusercontent.com/adnan1175/termux/main/.termux/termux.properties 
  rm -rf .termux 
  mkdir .termux 
  mv termux.properties .termux/
+ echo -e "${RED}congratulations,all done${NC}" 
+ 
  else 
  echo "" 
  echo -e "$red[-]-[Internet Connection].........[ False ]" 
