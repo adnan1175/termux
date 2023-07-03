@@ -12,7 +12,7 @@ bash fix-repo.sh
  ```
 - install termux desktop 
  ```
-apt install wget
+apt install wget -y
 wget https://raw.githubusercontent.com/adnan1175/termux/main/gui.sh
   ```
  Reqirement: vncviewer
