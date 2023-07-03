@@ -15,7 +15,7 @@ bash fix-repo.sh
 apt install wget
 wget https://raw.githubusercontent.com/adnan1175/termux/main/gui.sh
   ```
-reqirement:vncviewer
+ Reqirement: vncviewer
 
 - or  setup all at once 
  ```
