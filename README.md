@@ -20,4 +20,4 @@ bash fix-repo.sh
  ./setup.sh
  ```
 ⚠️⚠️ apt install will not work until repo fix ⚠️⚠️
-but you can also install termux from F-Droid
+but you can also install termux from  [F-Droid](https://f-droid.org/packages/com.termux/)
