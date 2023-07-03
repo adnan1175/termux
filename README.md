@@ -10,7 +10,7 @@ curl -O https://raw.githubusercontent.com/adnan1175/termux/main/fix-repo.sh
 
 bash fix-repo.sh
  ```
--install termux desktop 
+- install termux desktop 
  ```
 apt install wget
 wget https://raw.githubusercontent.com/adnan1175/termux/main/gui.sh
